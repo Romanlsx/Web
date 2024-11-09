@@ -1,0 +1,46 @@
+.name{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 40;
+    font-style: normal;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    position: relative; 
+}
+
+.photo{
+    border-radius: 50%;
+    box-shadow: 5px 5px 14px black;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FBFBFB;
+    color:#9E4770;
+}
+
+table tr:hover{
+    background-color: #2E2532;
+}
+
+.about::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 20%;
+}
